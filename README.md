@@ -1,5 +1,7 @@
 # PORTFOLIO
 
+Este es un proyecto que he realizado para crear mi página web de portfolio, donde muestro mis habilidades y me presento brevemente en relación a las tecnologías que utilizo. Espero que les guste, aunque todavía no está terminado y lo iré actualizando cuando tenga tiempo. Mi objetivo es tenerlo lo más completo posible y añadir proyectos personales que demuestren mi experiencia y mi pasión por el desarrollo web.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
