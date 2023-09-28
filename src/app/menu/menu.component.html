@@ -1,0 +1,69 @@
+<body>
+  <section class="home">
+    <div class="bgScroll"></div>
+    <div class="overlay opacity7"></div>
+    <div class="container">
+      <div class="name-block">
+        <div class="name-block-container">
+          <h1><span>Hola, Soy</span>Manuel Ibáñez</h1>
+          <h2>Programador Junior BackEnd/FrontEnd</h2>
+          <a
+            target="_blank"
+            href="../../assets/archivos/Manuel Ibáñez.pdf"
+            class="text-bg-dark btn btn-download"
+            >Descargar CV</a
+          >
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/Manue__02" target_="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/manuel-ib%C3%A1%C3%B1ez/"
+                target_="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/manue02">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=693027652">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-blocks">
+        <div class="about-block menu-block">
+          <div class="about-block-container" routerLink="/resumen">
+            <h2 class="about menu-item">Resumen</h2>
+          </div>
+        </div>
+        <div class="portfolio-block menu-block">
+          <div class="portfolio-block-container" routerLink="/portafolio">
+            <h2 class="portfolio menu-item">Portafolio</h2>
+          </div>
+        </div>
+        <div class="project-block menu-block">
+          <div class="project-block-container" routerLink="/proyectos">
+            <h2 class="project menu-item">Proyectos</h2>
+          </div>
+        </div>
+        <div class="contact-block menu-block">
+          <div class="contact-block-container" routerLink="/contacto">
+            <h2 class="contact menu-item">Contacto</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <router-outlet></router-outlet>
+</body>

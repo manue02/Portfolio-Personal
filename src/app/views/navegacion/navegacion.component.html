@@ -1,0 +1,47 @@
+<div class="menu__side" id="menu_side">
+  <div class="name__page">
+    <a class="selected">
+      <div class="option" routerLink="/menu">
+        <ion-icon name="md-home"></ion-icon>
+        <h4></h4>
+      </div>
+    </a>
+  </div>
+
+  <div class="options__menu">
+    <a>
+      <div class="option" routerLink="/proyectos">
+        <ion-icon name="md-folder"></ion-icon>
+        <!-- <h4>proyectos</h4> -->
+      </div>
+    </a>
+
+    <a>
+      <div class="option" routerLink="/portafolio">
+        <ion-icon name="md-person"></ion-icon>
+        <!-- <h4>Portafolio</h4> -->
+      </div>
+    </a>
+
+    <a>
+      <div class="option" routerLink="/contacto">
+        <ion-icon name="md-call"></ion-icon>
+        <!-- <h4>contacto</h4> -->
+      </div>
+    </a>
+
+    <a>
+      <div class="option" routerLink="/resumen">
+        <ion-icon name="md-list-box"></ion-icon>
+        <!-- <h4>resumen</h4> -->
+      </div>
+    </a>
+
+    <a href="../../assets/archivos/CartaPresentacion.pdf">
+      <div class="option" [ngClass]="{ ocultar: !isResumenRoute() }">
+        <ion-icon name="md-download"></ion-icon>
+        <!-- <h4>salir</h4> -->
+      </div>
+    </a>
+  </div>
+</div>
